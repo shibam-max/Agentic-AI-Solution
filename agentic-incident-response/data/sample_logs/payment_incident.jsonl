@@ -1,0 +1,5 @@
+{"timestamp":"2026-06-01T09:00:00Z","service":"checkout-api","severity":"info","message":"Checkout request accepted","trace_id":"trc-100","latency_ms":120,"status_code":200}
+{"timestamp":"2026-06-01T09:01:10Z","service":"payment-service","severity":"error","message":"Database timeout while authorizing payment","trace_id":"trc-101","latency_ms":2450,"status_code":503}
+{"timestamp":"2026-06-01T09:01:22Z","service":"payment-service","severity":"error","message":"Connection pool exhausted for payment ledger database","trace_id":"trc-102","latency_ms":3120,"status_code":503}
+{"timestamp":"2026-06-01T09:01:35Z","service":"payment-service","severity":"critical","message":"Payment authorization failed after retry budget exhausted","trace_id":"trc-103","latency_ms":3800,"status_code":500}
+{"timestamp":"2026-06-01T09:02:12Z","service":"notification-service","severity":"warning","message":"Email delivery delayed","trace_id":"trc-104","latency_ms":850,"status_code":202}

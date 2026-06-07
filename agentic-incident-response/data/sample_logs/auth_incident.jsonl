@@ -1,0 +1,5 @@
+{"timestamp":"2026-06-01T10:00:00Z","service":"identity-service","severity":"info","message":"Token validation request accepted","trace_id":"auth-200","latency_ms":95,"status_code":200}
+{"timestamp":"2026-06-01T10:01:04Z","service":"identity-service","severity":"error","message":"Unauthorized token rejected after key rotation","trace_id":"auth-201","latency_ms":180,"status_code":401}
+{"timestamp":"2026-06-01T10:01:08Z","service":"identity-service","severity":"error","message":"Permission denied while loading user policy","trace_id":"auth-202","latency_ms":210,"status_code":403}
+{"timestamp":"2026-06-01T10:01:15Z","service":"identity-service","severity":"critical","message":"Auth policy cache failed open prevention guard","trace_id":"auth-203","latency_ms":320,"status_code":403}
+{"timestamp":"2026-06-01T10:02:00Z","service":"profile-service","severity":"warning","message":"Profile request waiting for identity response","trace_id":"auth-204","latency_ms":990,"status_code":202}
